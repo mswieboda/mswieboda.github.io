@@ -1,0 +1,22 @@
+body {
+  background: #131313;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover, a:focus {
+  color: #00aa00;
+}
+
+.callout {
+  background-color: #313131;
+  color: #d0d0d0;
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 3px solid #131313;
+  border-radius: 16px;
+}
