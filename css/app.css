@@ -10,9 +10,12 @@ a {
 .callout {
   background-color: #313131;
   color: #d0d0d0;
-  position: relative;
+  border: 3px solid #131313;
+  border-radius: 16px;
+}
+
+.card {
   margin: 0 0 1rem 0;
-  padding: 1rem;
   border: 3px solid #131313;
   border-radius: 16px;
 }

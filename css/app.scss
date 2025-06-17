@@ -25,9 +25,12 @@ a {
 .callout {
   background-color: $callout-bg-color;
   color: $text-main-color;
-  position: relative;
+  border: 3px solid $callout-border-color;
+  border-radius: 16px;
+}
+
+.card {
   margin: 0 0 1rem 0;
-  padding: 1rem;
   border: 3px solid $callout-border-color;
   border-radius: 16px;
 }
